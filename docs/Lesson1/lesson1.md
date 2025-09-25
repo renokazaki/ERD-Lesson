@@ -10,16 +10,16 @@ erDiagram
 
     
   orders {
-        int id PK "orderId"
-        int clientId FK "顧客ID"
-        int productId FK "商品ID"
+        int id PK "注文ID"
+        int client_id FK "顧客ID"
+        int product_id FK "商品ID"
         int amount
         int sum
-        date orderDate
+        date order_date
     }
   product {
         int id PK "商品ID"
-        int categoryId FK "カテゴリID"
+        int category_id FK "カテゴリID"
         string name
         number price
     }
@@ -30,5 +30,5 @@ erDiagram
   client {
         int id PK "顧客ID"
         string name
-        number telephonenumber
+        number telephone_number
     }
