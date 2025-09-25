@@ -23,7 +23,7 @@ erDiagram
         int category_id FK "カテゴリID"
         string name
         number price
-      　string status "商品ステータス(new/normal)
+        string status "商品ステータス(new/normal)"
     }
   category {
         int id PK "カテゴリID"
