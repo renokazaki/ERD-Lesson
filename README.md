@@ -1,1 +1,1 @@
-# ERD-Lesson
+# ERD-Lesson　演習用リポジトリ
