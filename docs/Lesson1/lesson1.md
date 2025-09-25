@@ -25,7 +25,7 @@ erDiagram
     }
   category {
         int id PK "カテゴリID"
-        strig name
+        string name
     }
   client {
         int id PK "顧客ID"
