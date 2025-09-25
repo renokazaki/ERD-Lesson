@@ -22,6 +22,7 @@ erDiagram
         int category_id FK "カテゴリID"
         string name
         number price
+      　enum status "new,normal" "商品ステータス"
     }
   category {
         int id PK "カテゴリID"
